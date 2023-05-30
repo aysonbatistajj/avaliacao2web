@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Special Elite", monospace;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#sobre a{
+    font-size: 13pt;
+}
+/*Cabeçalho*/
+    
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #000000;
+    align-items: center;
+    justify-content: end;
+    padding: 0 30px 0 0px;
+    flex-wrap: wrap;
+}
+
+div.logo{
+   color: #ffffff;
+   font-size: 20pt;
+   font-weight: 600;
+   margin: auto;
+}
+
+nav ul.open{
+    left: 0;
+}
+
+
+i{
+    margin: auto;
+    color: #ffffff;
+}
+
+nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+nav ul li{
+    width: 100%;
+    margin: 50px 0;
+}
+
+nav ul li a{
+    color: #8a2be2;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+nav ul li a:hover{
+    background-color: #8a2be2;
+    border-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/*Cabeçalho*/
+
+
+/*Topo*/
+
+
+#topo, #sobre{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding-top: 3rem;
+    min-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#topo h1{
+    font-size: 20pt;
+    margin-bottom: rem;
+    min-width: 400px;
+}
+
+#topo p{
+    width: 80%;
+    padding: 10px;
+    font-size: 13pt;
+    text-align: justify;
+    min-width: 400px;
+}
+
+#topo a{
+    color: black;
+    font-size: 10pt;
+    font-weight: bold;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+/*Topo*/
+
+/*Sobre*/
+#sobre h2{
+    font-size: 20pt;
+    min-width: 400px;
+}
+
+#sobre p{
+    width: 80%;
+    min-width: 400px;
+    padding: 13px;
+    font-size: 13pt;
+    text-align: center;
+    text-align: justify;
+    font-family: "Special Elite", monospace;
+}
+
+#sobre a{
+    color: black;
+    font-size: 10pt;
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.botao:hover{
+    background-color: #8a2be2;
+    border-color: #000000;
+    color: #ffffff;
+    transition: 0.6s;
+}
+/*Sobre*/
+
+/*Serviços*/
+
+
+
+body h2{
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 15px;
+}
+
+.cards{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%; /*Divide em duas colunas*/
+    gap: 8px;
+    padding: 10px;
+    min-width: 400px;
+    margin: auto;
+}
+
+.card{
+    background-color: #8a2be2;
+    width: 350px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 14px;
+    align-items: center;
+    padding: 15px 0px;
+    box-shadow: 20px 20px 50px -30px black;
+}
+
+.card h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p{
+    margin: auto;
+    padding: 5px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+.cards .card img{
+    width: 40px;
+    height: 35px;
+}
+/*Serviços*/
+
+/*Fotos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-slider {
+    display: flex;
+    width: 100%;
+    min-width: 400px;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0px;
+  }
+
+  .container-images img{
+    width: 400px;
+    height: 300;
+  }
+
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+/*Fotos*/
+
+
+/*Voltar*/
+
+.btn-voltar {
+    display: none;
+}
+
+.bnt-voltar-text{
+    text-align: center;
+    margin: 0px 0px 1rem 0px;
+    min-width: 400px;
+}
+
+.bnt-voltar-text a{
+    color: #000000;
+    border: 1px solid #8a2be2;
+    font-size: 10pt;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.bnt-voltar-text a:hover{
+    background-color: #8a2be2;
+    color: #000000;
+    transition: 0.6s;
+}
+/*Voltar*/
+
+/*Contato*/
+
+.contato{
+    background-color: #000000;
+    width: 100%;
+    height: 10%;
+    min-width: 400px;
+    color: #8a2be2;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.esq .dir{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.esq h2#contatos{
+    display: block;
+    font-size: 10pt;
+    min-width: 100%;
+    text-align: center;
+    padding-top: 0;
+}
+
+.esq p{
+    display: block;
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 15px;
+}
+
+.dir img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5dpx;
+    border: 1px solid #8a2be2;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.dir div{
+    margin: auto;
+    margin-top: 2%;
+}
+
+.dir p{
+    width: 150px;
+}
+
+.dir p a{
+    font-size: 8pt;
+}
+/*Contato*/
+
+/*Footer*/
+footer{
+    height: 40px;
+    width: auto;
+    min-width: 400px;
+    background-color: #000000;
+    color: #8a2be2;
+    font-size: 7pt;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*Footer*/
+
+/*personalizar scroolbar*/
+/*personalizar scroolbar*/
+::-webkit-scrollbar{
+    width: 3px; 
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+} 
+
+::-webkit-scrollbar-track {
+    background-color: #444444;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8a2be2;    
+}

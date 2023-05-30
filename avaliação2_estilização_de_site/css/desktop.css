@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Special Elite", monospace;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#sobre a{
+    font-size: 13pt;
+}
+
+
+/*Para desktops*/
+@media (min-width: 800px) {
+
+/*Cabeçario*/
+nav{
+    display: flex;
+    left: 0%;
+    height: 80px;
+    width: auto;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+.menu-btn{
+    display: none;
+}
+
+div.logo{
+   color: #ffffff;
+   font-size: 15pt;
+   font-weight: 600; 
+   float: left;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: #8a2be2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    border: 2px solid #8a2be2;
+    transition: all 0.5s ease;
+}
+
+nav ul li a:hover{
+    background-color: #8a2be2;
+    border-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+div.menu-btn{
+    display: none;
+}
+/*Cabeçario*/
+
+/*Topo*/
+
+#topo, #sobre{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#topo h1{
+    font-size: 30pt;
+    margin-bottom: rem;
+}
+
+#topo p{
+    width: 50%;
+    padding: 10px;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+#topo a{
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+/*Topo*/
+
+/*sobre*/
+
+#sobre h2{
+    font-size: 30pt;
+}
+
+#sobre p{
+    width: 50%;
+    padding: 13px;
+    font-size: 15pt;
+    text-align: center;
+    text-align: justify;
+    font-family: "Special Elite", monospace;
+}
+
+#sobre a{
+    color: black;
+    font-size:13pt;
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.botao:hover{
+    background-color: #8a2be2;
+    border-color: #000000;
+    transition: 0.6s;
+}
+/*sobre*/
+
+/*fotos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-slider {
+    display: flex;
+    width: 100%;
+    min-height:50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 720px;
+    height: 405px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+/*fotos*/
+
+/*Serviços*/
+
+body h2{
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 15px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%; /*Divide em duas colunas*/
+    gap: 3px;
+    padding: 10px;
+}
+
+.card{
+    background-color: #8a2be2;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 0px 1%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 14px;
+    align-items: center;
+    padding: 15px 0px;
+    box-shadow: 20px 20px 50px -30px black;
+}
+
+.card h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p{
+    margin: auto;
+    padding: 5px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+.cards .card img{
+    width: 40px;
+    height: 35px;
+}
+
+/*Serviços*/
+
+img.foto{
+    width: 300px;
+    height: 200px;
+}
+
+/*Voltar*/
+
+.btn-voltar {
+    margin: 3rem;
+    text-align: center;
+}
+
+.voltar img {
+    width: 70px;
+    height:40px;
+    border: 2px solid #8a2be2;
+    padding: 0px 15px 0px 15px;
+    border-radius: 15px;
+}
+
+.bnt-voltar-text{
+    display: none;
+}
+/*Voltar*/
+
+/*Contato*/
+.contato{
+    background-color: #000000;
+    width: auto;
+    height: 8rem;
+    color: #8a2be2;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.esq .dir{
+    width: 100%;
+    height: 100%;
+}
+
+.esq h2, .esq p{
+    padding: 0;
+    margin: auto;
+    font-size: 15pt;
+}
+
+/*Efeito Digitar*/
+.esq p{
+    font-size: 13pt;
+}
+
+/*Efeito Digitar*/
+
+.esq{
+    display: flex;
+    float: left;
+}
+
+.dir{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.dir a{
+    font-size: 14pt;
+    color: #8a2be2;
+}
+
+.dir img{
+    width: 35px;
+    height: 35px;
+    margin-right: -5px;
+    border: 1px solid #8a2be2;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.dir div{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.dir p{
+    margin: auto;
+}
+
+.dir p a{
+    font-size: 12pt;
+}
+
+/*Contato*/
+
+
+/*footer*/
+footer{
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    color: #8a2be2;
+    text-align: center;
+}
+/*footer*/
+
+
+/*personalizar scroolbar*/
+::-webkit-scrollbar{
+    width: 10px; 
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+} 
+
+::-webkit-scrollbar-track {
+    background-color: #444444;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8a2be2;    
+}
+
+}
+
+

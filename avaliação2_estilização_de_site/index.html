@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&displau=swap">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">   
+
+    <link rel="stylesheet" media="(min-width: 480px) and (max-width: 800px)" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/celular.css" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"> Ricardo Fotos </div>
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"><img src="img/cardapio.png" alt="menu" width="35px"></i>
+        </div>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="topo" data-aos="fade-up">
+        <h1>Fotógrafo Profissional</h1>
+        <p>A fotografia sempre exerceu forte influência na propaganda, seja apresentando um produto, seja numa campanha promocional agregada a outros elementos. Sendo uma ferramenta de grande apelo comercial e deve ser tratada com cuidado sob o comando de profissionais especializados. Detalhes como iluminação, cores e equipamentos são fundamentais para uma fotografia de qualidade. Dessa forma a foto poderá conseguir transmitir ao público alvo, suas características principais.
+        </p>
+        <a href="#servicos" class="botao">Ver mais</a>
+    </header>
+    
+    <section id="sobre" data-aos="fade-up">
+        <h2>Sobre</h2>
+        <p>Eu sou Ricardo, fotógrafo profissional. Trabalho no ramo desde dos anos 2000 e tenho bastante experiência na cobertura de eventos, aniversários e casamentos. Não deixe de entrar em contato.
+        </p>
+        <a href="#contato" class="botao">Contrate agora</a>
+    </section>
+    
+    <h2 id="servicos" data-aos="fade-up">Serviços</h2>
+    <section class="cards" data-aos="fade-up">
+        <div class="card">
+            <img src="img/p1.png" alt="Camera">
+            <h3>Fotografia</h3>
+            <p>Guarde momentos importantes, como casamento, formaturas, aniversários para sempre com alta qualidade.</p>
+        </div>
+        <div class="card">
+            <img src="img/p2.png" alt="Filme">
+            <h3>Edição de Vídeo</h3>
+            <p>Quer transformar alguma lembrança em vídeo em algo emocionante com trilha sonora, textos e cores fantásticas?.</p>
+        </div>
+        <div class="card">
+            <img src="img/p3.png" alt="videoplayer">
+            <h3>Captação de imagem</h3>
+            <p>Vai participar de algum evento importante em sua vida, então é importante recordar tudo a segundo para tornar tudo imortal.</p>
+        </div>
+        <div class="card">
+            <img src="img/p4.png" alt="Tratamento">
+            <h3>Tratamento de Imagem</h3>
+            <p>Recupere fotos ou atualize suas lembranças de forma que nunca as perca.</p>
+        </div>
+    </section>
+    
+    <h2 id="titulo">Fotos</h2>
+    <section id="fotos" class="container-slider" data-aos="fade-up">
+        <button id="prev-button"><img src="img/arrow.png" alt="prev-button"></button>
+        <div class="container-images">
+          <img src="img/grama.jpg" alt="grama" class="slider on">
+          <img src="img/ceu.jpg" alt="ceu" class="slider">
+          <img src="img/arvores.jpg" alt="arvore" class="slider">
+          <img src="img/mar.jpg" alt="mar" class="slider">
+          <img src="img/montanha.jpg" alt="montanha" class="slider">
+          <img src="img/ponte.jpg" alt="montanha" class="slider">
+        </div>
+        <button id="next-button"><img src="img/arrow.png" alt="next-button"></button>
+    </section>
+
+    <div class="btn-voltar imgvoltar" data-aos="fade-up">
+        <a class="voltar" href="#topo"><img src="img/topo.png" alt="voltar"></a>
+    </div>
+
+    <div class="bnt-voltar-text"><a href="#topo">voltar</a></div>
+    
+    <section id="contato" class="contato">
+        <div class="esq">
+            <h2 id="contatos">Contato:</h2>
+            <p class="animacao">Vem falar com a gente =)</p>
+        </div>
+        
+        <div class="dir">
+            <div>
+                <img src="img/tel.png" alt="telefone">
+                <p><a href:"tel:92992101010">(92) 99210-1010</a></p>
+            </div>
+            
+            <div>
+                <img src="img/mail.png" alt="email">
+                <p><a href:"mailto:ricardo@gmail.com">ricardo@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Desenvolvido por I7 - Programação Web</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script src="js/script.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

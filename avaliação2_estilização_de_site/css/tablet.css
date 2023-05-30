@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Special Elite", monospace;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#sobre a{
+    font-size: 13pt;
+}
+/*Cabeçalho*/
+   
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    min-width: 370px;
+    background-color: #000000;
+}
+
+.menu-btn{
+    display: none;
+}
+
+div.logo{
+   color: #ffffff;
+   font-size: 20pt;
+   font-weight: 600;
+   padding: 2rem; 
+   margin: auto;
+}
+
+i{
+    margin: auto;
+    color: #ffffff;
+}
+
+nav ul{
+    margin: auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 10px 10px 10px 0px;
+    border: 2px solid #8a2be2;
+    padding: 3px;
+    transition: all 0.5s ease;
+}
+
+nav ul li a{
+    color: #8a2be2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+nav ul li a:hover{
+    background-color: #8a2be2;
+    border-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/*Cabeçalho*/
+
+/*Topo*/
+
+#topo, #sobre{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#topo h1{
+    font-size: 20pt;
+    margin-bottom: rem;
+}
+
+#topo p{
+    width: 75%;
+    padding: 10px;
+    font-size: 13pt;
+    text-align: justify;
+}
+
+#topo a{
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+/*Topo*/
+
+/*Sobre*/
+#sobre h2{
+    font-size: 20pt;
+}
+
+#sobre p{
+    width: 75%;
+    padding: 13px;
+    font-size: 13pt;
+    text-align: center;
+    text-align: justify;
+    font-family: "Special Elite", monospace;
+}
+
+#sobre a{
+    color: black;
+    font-size: 13pt;
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.botao:hover{
+    background-color: #8a2be2;
+    border-color: #000000;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+/*Sobre*/
+
+/*Serviços*/
+body h2{
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 15px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%; /*Divide em duas colunas*/
+    gap: 3px;
+    padding: 10px;
+    margin: auto;
+}
+
+.card{
+    background-color: #8a2be2;
+    width: auto;
+    max-width: 330px;
+    height: auto;
+    display: flex;
+    margin: 0px 1%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 14px;
+    align-items: center;
+    padding: 15px 0px;
+    box-shadow: 20px 20px 50px -30px black;
+}
+
+.card h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p{
+    margin: auto;
+    padding: 5px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+.cards .card img{
+    width: 40px;
+    height: 35px;
+}
+
+/*Serviços*/
+
+/*Fotos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-slider {
+    display: flex;
+    width: 100%;
+    min-height:50vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 405px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 2rem;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    margin-left: 10px;
+    transform: rotate(180deg);
+  }
+
+  #next-button{
+    margin-right: 10px;
+  }
+/*Fotos*/
+
+/*Voltar*/
+
+.btn-voltar {
+    margin: 3rem;
+    text-align: center;
+}
+
+.voltar img {
+    width: 60px;
+    height: 30px;
+    border: 2px solid #8a2be2;
+    padding: 0px 15px 0px 15px;
+    border-radius: 15px;
+}
+
+.bnt-voltar-text{
+    display: none;
+}
+/*Voltar*/
+
+/*Contato*/
+
+.contato{
+    background-color: #000000;
+    width: auto;
+    height: 8rem;
+    color: #8a2be2;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.esq .dir{
+    width: 100%;
+    height: 100%;
+}
+
+.esq h2, .esq p{
+    padding: 0;
+    margin: auto;
+    font-size: 15pt;
+}
+
+
+/*Efeito Digitar*/
+.esq p{
+    font-size: 13pt;
+}
+
+/*Efeito Digitar*/
+
+.esq{
+    display: flex;
+    flex-direction: column;
+}
+
+.dir{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.dir a{
+    font-size: 14pt;
+    color: #8a2be2;
+}
+
+.dir img{
+    width: 25px;
+    height: 25px;
+    margin-right: -5px;
+    border: 1px solid #8a2be2;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.dir div{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.dir p{
+    margin: auto;
+}
+
+.dir p a{
+    font-size: 12pt;
+}
+
+/*Contato*/
+
+/*Footer*/
+footer{
+    width: auto;
+    height: 50px;
+    background-color: #000000;
+    color: #8a2be2;
+    text-align: center;
+    padding-top: 20px;
+}
+/*Footer*/
+
+/*personalizar scroolbar*/
+::-webkit-scrollbar{
+    width: 5px; 
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+} 
+
+::-webkit-scrollbar-track {
+    background-color: #444444;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8a2be2;    
+}
